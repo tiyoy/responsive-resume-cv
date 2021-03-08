@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Resume CV</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+              <a href="#" class="nav__logo">Cecep Maulana</a>
+              
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">
+                      <i class="bx bx-home nav__icon" ></i>Home
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#profile" class="nav__link">
+                      <i class="bx bx-user nav__icon"></i>Profile
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#education" class="nav__link">
+                      <i class="bx bx-book nav__icon"></i>Education
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                      <i class="bx bx-receipt nav__icon"></i>Skills
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#experience" class="nav__link">
+                      <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#certificates" class="nav__link">
+                      <i class="bx bx-award nav__icon"></i>Certificates
+                    </a>
+                  </li>
+                  
+                  <!--<li class="nav__item">
+                    <a href="#references" class="nav__link">
+                      <i class="bx bx-link-external nav__icon"></i>References
+                    </a>
+                  </li>-->
+                  
+                  <li class="nav__item">
+                    <a href="#character" class="nav__link">
+                      <i class="bx bx-link-external nav__icon"></i>Characters
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt nav__icon"></i>
+              </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                          <div class="home__data bd-grid">
+                            <img src="assets/img/1.jpg" class="home__img">
+
+                            <h1 class="home__title">CECEP <b>MAULANA</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+
+                            <!-- Button to download CV saved in the pdf folder. Available -->
+                            <div>
+                              <a download="" href="assests/pdf/ResumeCv.pdf" class="home__button-movil">Download</a>
+                            </div>
+                          </div>
+
+                          <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class="bx bx-map home__icon"></i> Cikaret, Cibinong - Kabupaten Bogor
+                            </span>
+                          </div>
+
+                          <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class="bx bx-envelope home__icon"></i> mr.tiyoy@gmail.com
+                            </span>
+                          </div>
+
+                          <div class="home__address bd-grid">
+                            <span class="home__information">
+                              <i class="bx bx-phone home__icon"></i> +62897-2400-654
+                            </span>
+                          </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>
+
+                              
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                          <a href="https://www.linkedin.com/in/cecep-maulana-062b96200/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> LinkedIn
+                          </a>
+                          <a href="https://www.facebook.com/tiyoy.gatez" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon' ></i> Facebook
+                          </a>
+                          <a href="https://www.instagram.com/cecep.maulana_/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon' ></i> Instagram
+                          </a>
+                          <a href="https://twitter.com/TiyoyGatez" target="_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon'></i> Twitter
+                          </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">I am a person, responsible with their work during working hours. Finish various technical and higher studies at large universities. I have several years of experience and achievements in the labor field.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">ELEMENTARY SCHOOL</h3>
+                              <span class="education__studies">SD Negeri Cikaret 02</span>
+                              <span class="education__year">1995 - 2001</span>
+                            </div>
+                          </div>
+
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">JUNIOR HIGH SCHOOL</h3>
+                              <span class="education__studies">SMP PGRI 3 Cibinong</span>
+                              <span class="education__year">2001 - 2004</span>
+                            </div>
+                          </div>
+
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">SENIOR HIGH SCHOOL</h3>
+                              <span class="education__studies">SMK Negeri 1 Cibinong</span>
+                              <span class="education__year">2004 - 2007</span>
+                            </div>
+                          </div>
+                          
+                          <div class="education__content">
+                            <div class="education__time">
+                              <span class="education__rounder"></span>
+                              <!--<span class="education__line"></span>-->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                              <h3 class="education__title">UNIVERSITY LECTURE</h3>
+                              <span class="education__studies">Universitas Pakuan Bogor</span>
+                              <span class="education__year">2009 - 2013</span>
+                            </div>
+                          </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                          <ul class="skills__data">
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Html
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Css
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Sass
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> Javascript
+                            </li>
+                          </ul>
+
+                           <ul class="skills__data">
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> PHP
+                            </li>
+                            <li class="skills__name">
+                              <span class="skills__circle"></span> MySQL
+                            </li>
+                          </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">EXPERIENCE</h2>
+
+                        <div class="experience__container bd-grid">
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">FRONTEND DEVELOPER</h3>
+                              <span class="experience__company">From 2013 to 2015 | Tech Soft</span>
+                              <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                            </div>
+                          </div>
+
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">BACKEND DEVELOPER</h3>
+                              <span class="experience__company">From 2017 to 2019 | SRI Tbk</span>
+                              <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                            </div>
+                          </div>
+
+                          <div class="experience__content">
+                            <div class="experience__time">
+                              <span class="experience__rounder"></span>
+                              <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                              <h3 class="experience__title">WEB DEVELOPER</h3>
+                              <span class="experience__company">From 2019 to 2021 | Indo Web</span>
+                              <p class="experience__description">Work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.</p>
+                            </div>
+                          </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">CERTIFICATES</h2>
+
+                        <div class="certificate__container bd-grid">
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
+                            <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                          </div>
+
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Certificate of attendance on computer technology.</h3>
+                            <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                          </div>
+
+                          <div class="certificate__content">
+                            <h3 class="certificate__title">Achievement medal for productivity excellence during the year (2019)</h3>
+                            <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                          </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <!--<section class="references section" id="references">
+                        <h2 class="section-title">REFERENCES</h2>
+
+                        <div class="references__container bd-grid">
+                          <div class="references__content bd-grid">
+                            <span class="reference__subtitle">Sr. Directior</span>
+                            <h3 class="references__title">Mr. Clay Doe</h3>
+                            <ul class="references__contact">
+                              <li>Phone: +62812-XXXX-XXXX</li>
+                              <li>Email: user@gmail.com</li>
+                            </ul>
+                          </div>
+
+                          <div class="references__content bd-grid">
+                            <span class="reference__subtitle">Mg. Developer</span>
+                            <h3 class="references__title">Mr. Robbinson Bass</h3>
+                            <ul class="references__contact">
+                              <li>Phone: +62812-XXXX-XXXX</li>
+                              <li>Email: user@gmail.com</li>
+                            </ul>
+                          </div>
+                        </div>
+                    </section>-->
+                    
+                    <!--========== CHARACTER =========-->
+                    <section class="character section" id="character">
+                        <h2 class="section-title">CHARACTERS</h2>
+
+                        <div class="character__content bd-grid">
+                          <ul class="character__data">
+                            <li class="character__name">
+                              <span class="character__circle"></span> Discipline
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Honest
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Hard Work
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Team Work
+                            </li>
+                          </ul>
+
+                           <ul class="character__data">
+                            <li class="character__name">
+                              <span class="character__circle"></span> Creative
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Innovative
+                            </li>
+                            <li class="character__name">
+                              <span class="character__circle"></span> Deadline
+                            </li>
+                          </ul>
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">LANGUAGES</h2>
+
+                        <div class="languages__container">
+                          <div class="languages__content bd-grid">
+                            <li class="languages__name">
+                              <span class="languages__circle"></span> Indonesian
+                            </li>
+                            <li class="languages__name">
+                              <span class="languages__circle"></span> English
+                            </li>
+                          </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">INTERESTS</h2>
+
+                        <div class="interests__container bd-grid">
+                          <div class="interests__content">
+                            <i class='bx bx-headphone interests__icon' ></i>
+                            <span class="interests__name">Music</span>
+                          </div>
+
+                          <div class="interests__content">
+                            <i class='bx bx-run interests__icon'></i>
+                            <span class="interests__name">Jogging</span>
+                          </div>
+
+                          <div class="interests__content">
+                            <i class='bx bx-book interests__icon'></i>
+                            <span class="interests__name">Read</span>
+                          </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+          <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
